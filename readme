@@ -1,0 +1,62 @@
+mvn -f pom.xml clean package
+
+
+    1  pwd
+    2  clear
+    3  touch webhook.rb
+    4  vi webhook.rb 
+    5  ruby webhook.rb 8000
+    6  sudo apt  install ruby
+    7  ruby webhook.rb 8000
+    8  clear
+    9  pwd
+   10  javac
+   11  sudo apt install openjdk-11-jdk-headless
+   12  apt update
+   13  sudo apt update
+   14  sudo apt install openjdk-11-jdk-headless
+   15  javac
+   16  java
+   17  java -vewrsion
+   18  java -version
+   19  clear
+   20  mvn
+   21  sudo apt install maven
+   22  clear
+   23  history
+   24  clear
+   25  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+   26  ls -lrt
+   27  tree my-app/
+   28  sudo apt  install tree -y
+   29  clesr
+   30  clear
+   31  tree my-app/
+   32  cd my-app/
+   33  ls -lrt
+   34  cat pom.xml 
+   35  mvn -f pom.xml clean package
+   36  vi pom.xml 
+   37  mvn -f pom.xml clean package
+   38  ls -lrt
+   39  cd target/
+   40  ls -lrt
+   41  cd ../
+   42  ls -lrt
+   43  rm -rf target/
+   44  ls -lrt
+   45  git init
+   46  	git config --global user.name "ravi"
+   47  	git config --global user.email "ravi@bytec.co"
+   48  git status
+   49  git commit -m "updatef"
+   50  git add .
+   51  git commit -m "updatef"
+   52  git remote add origin git@github.com:qf-clinic/my-app.git
+   53  git push
+   54  git branch -M main
+   55  git push origin main
+   56  ssh-keygen
+   57  cat /home/ubuntu/.ssh/id_rsa.pub
+   58  git push origin main
+   59  history
