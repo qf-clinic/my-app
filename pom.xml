@@ -19,4 +19,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+         <id>nexus-site</id>
+         <name>MyCo Internal Repository</name>
+         <url>http://Nexus url</url>
+    </repository>
+    <snapshotRepository>
+         <id>nexus-site</id>
+         <name>Your Snapshot Repository</name>
+         <url>http://Nexus url</url>
+    </snapshotRepository>
+ </distributionManagement>
+
 </project>
