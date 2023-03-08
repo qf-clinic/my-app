@@ -1,0 +1,28 @@
+ 1  pwd
+    2  javac
+    3  apt install openjdk-11-jdk-headless 
+    4  apt update
+    5  apt install openjdk-11-jdk-headless 
+    6  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+    7  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+    8  cat /etc/apt/sources.list.d/jenkins.list 
+    9  apt update
+   10  clear
+   11  sudo apt-get install jenkins
+   12  systemctl status jenkins
+   13  java -version
+   14  javac
+   15  apt install nginx
+   16  systemctl sttaus nginx
+   17  systemctl status nginx
+   18  systemctl stop nginx
+   19  apt uninstall nginx
+   20  apt purge nginx
+   21  cat /var/lib/jenkins/secrets/initialAdminPassword
+   22  cd /var/lib/jenkins/
+   23  ls -lrt
+   24  cd secrets/
+   25  ls -lrt
+   26  cat initialAdminPassword 
+   27  clear
+   28  history
