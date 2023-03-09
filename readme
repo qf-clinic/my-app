@@ -60,3 +60,6 @@ mvn -f pom.xml clean package
    57  cat /home/ubuntu/.ssh/id_rsa.pub
    58  git push origin main
    59  history
+
+assignmet:
+add cloud agent to jenkins
